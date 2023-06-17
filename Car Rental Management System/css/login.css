@@ -1,0 +1,119 @@
+*,*::before,*::after{box-sizing:border-box}body,h1,h2,h3,h4,p,figure,blockquote,dl,dd{margin:0}ul[role="list"],ol[role="list"]{list-style:none}html:focus-within{scroll-behavior:smooth}body{min-height:100vh;text-rendering:optimizeSpeed;line-height:1.5}a:not([class]){text-decoration-skip-ink:auto}img,picture{max-width:100%;display:block}input,button,textarea,select{font:inherit}@media(prefers-reduced-motion:reduce){html:focus-within{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms !important;animation-iteration-count:1 !important;transition-duration:.01ms !important;scroll-behavior:auto !important}}
+
+body#loginBody{
+	background: url('../images/cars bg.jpg') no-repeat center center fixed;
+	background-size: cover;
+}
+body{	
+	font-family: Times New Roman;
+}
+
+ul {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	left: -35px;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+
+div.loginHeader{
+	text-align: center;
+}
+.alignLeft{
+	text-align: left;
+}
+div.loginHeader{
+	margin-bottom: 150px;
+}
+div.loginHeader h1{
+	font-size: 80px;
+	color:#2F4F4F;
+	padding:0px;
+	margin:0px;
+}
+div.loginHeader p{
+	color:#2F4F4F;
+	font-size: 40px;
+	margin:0px;
+	text-transform: uppercase;
+	display: inline-block;
+}
+
+div.loginHeader p:after{
+	content:'';
+	display: block;
+	height: 5px;
+	background:#2F4F4F;
+	margin:0 auto;
+}
+
+div.loginBody form{
+	margin:0 auto;
+	width: 450px;
+	background: rgba(0,0,0,.5);
+	padding:50px;
+	border:2px solid #fff;
+	border-radius: 8px;
+}
+
+.errormsg {
+	color: red;
+	background: white;
+	padding-left: 60px;
+	align-items: center;
+	border-radius: 10px;
+}
+
+div.loginInputsContainer{
+	margin-top:30px;
+}
+
+div.loginInputsContainer label{
+	display: block;
+	text-transform: uppercase;
+	font-size: 20px;	
+	font-weight: bold;
+	color:#fff;
+}
+
+div.loginInputsContainer input{
+	height: 30px;
+	width:100%;
+	border:2px solid #2F4F4F;
+	font-size:20px;
+	padding:5px;
+	text-align: center;
+	font-style: italic;
+}
+
+div.loginButtonContainer{
+	margin-top:40px;
+	text-align: center;
+}
+
+div.loginButtonContainer button{
+	font-size: 20px;
+	padding: 10px 40px;
+	background:#2F4F4F;
+	border:none;
+	color: #fff;
+}
+
+
+div.header{
+	width:100%;
+	height:20px;
+	background:#2F4F4F;
+}
+div.banner{
+	background: url('../images/banner.jpg') no-repeat center center fixed;
+	background-size: cover;
+}
+div.homepageContainer{
+	width:100%;
+	max-width:900px;
+	margin:0 auto;
+}
